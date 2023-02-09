@@ -8,12 +8,11 @@ html {
   min-height: 100%;
 }
 .header {
-  background-image: url(images/banner/banner1.png);
+  background-image: url("images/banner/banner1.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100%;
-  background-size: cover;
   background-position: center;
 }
 .header-text {
@@ -96,4 +95,21 @@ html {
 }
 .country-text {
   width: 349px;
+}
+ul li {
+  list-style: none;
+}
+.right {
+  color: rgb(71, 231, 119);
+}
+.plan {
+  text-align: center;
+  width: 179px;
+  height: 47px;
+  margin-left: 500px;
+}
+.my-plan {
+  width: 1141px;
+  height: 299.96px;
+  margin-left: 230px;
 }
