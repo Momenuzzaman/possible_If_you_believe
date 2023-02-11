@@ -63,7 +63,6 @@ html {
 .top-section {
   width: 1141px;
   display: flex;
-  /* justify-content: space-between; */
 
   width: 1141px;
 }
@@ -73,7 +72,7 @@ html {
   height: 723.3px;
   margin-left: 100px;
 }
-*/ .img {
+.img {
   width: 100%;
 }
 .section-title {
@@ -102,14 +101,21 @@ ul li {
 .right {
   color: rgb(71, 231, 119);
 }
-.plan {
-  text-align: center;
-  width: 179px;
-  height: 47px;
-  margin-left: 500px;
+
+.skills_container {
+  display: flex;
+  justify-content: center;
 }
-.my-plan {
-  width: 1141px;
-  height: 299.96px;
-  margin-left: 230px;
+.skills {
+  width: 300px;
+  margin: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.skills-text {
+  padding: 24px;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
 }
