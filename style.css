@@ -47,16 +47,16 @@ html {
   color: #444343;
 }
 .btn-primary {
-  width: 160px;
+  width: 150px;
   height: 64px;
   left: 1210px;
-  margin-left: 1180px;
+  margin-left: 1190px;
   margin-top: 50px;
   top: 578px;
   color: white;
   font-size: 16px;
   background-color: rgb(255, 123, 0);
-  border-radius: 3px;
+  border-radius: 8px;
   border: 0;
   cursor: pointer;
 }
@@ -118,4 +118,101 @@ ul li {
   font-size: 36px;
   font-weight: bolder;
   text-align: center;
+}
+
+.gray {
+  color: lightslategray;
+  font-size: 22px;
+}
+
+.bg-img {
+  background-image: url("images/watch.png");
+  background-size: cover;
+  height: 250px;
+  margin: 100px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.color-bg {
+  background-image: url("images/gradient3.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.positive-content {
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.btn-white {
+  padding: 15px 40px;
+  color: #fff;
+  font-weight: bold;
+  color: orange;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+/* footer section */
+
+.footer-container {
+  padding: 50px;
+  background-color: black;
+  color: #fff;
+}
+.footer-container-main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.parent-footer {
+  width: 500px;
+}
+.parent-footer i {
+  text-align: center;
+  margin: 5px auto;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 28px;
+}
+.icon-container {
+  display: flex;
+}
+.parent-icon {
+  background-color: #fff;
+  color: blue;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.future {
+  font-size: 36px;
+}
+.sub-content {
+  font-weight: bold;
+  margin-left: 20px;
+}
+.btn-subscribe {
+  padding: 15px 40px;
+  color: rgb(20, 61, 194);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.enter-search-box {
+  width: 220px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  margin-left: 20px;
+  background-color: black;
+  height: 40px;
+  border-radius: 5px;
 }
